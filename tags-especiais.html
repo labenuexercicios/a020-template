@@ -7,18 +7,36 @@
     <title>Links</title>
 </head>
 <body>
+    <!-- O <a> é para direcionar link externos, o target =_blank, serve para abrir 1 nova aba o link do <a> -->
     <!--Link normal aqui-->
-
-    <p>Este p pode ser um link</p>
-    <span>Este span também!</span>
-    <p>Posso transformar só um trechinho do texto em link também!</p>
+    <a href="#">tag anchor sozinha</a>
+    <p><a href="https://google.com" target="_blank">Este p pode ser um link</a></p>
+    <p><a href="./tags-formulario.html">Link interno</a></p>
+    <span><a href="#">Este span também!</a></span>
+    <p>Posso transformar <a href="#">só um trechinho do texto</a> em link também!</p>
 
     <!--Tags de mídia-->
+    <!-- verificar a extensao da imagem se é jpg ou png. -->
+    <!-- acrescentar imagem usando link da imagem -->
     <p>Vamos adicionar uma imagem aqui:</p>
+    <img src="https://kinsta.com/wp-content/uploads/2020/08/tiger-jpg.jpg" alt="Foto 1 test">
 
+    <!-- acrescentar imagem pela imagem salva no computado, salvar na mesma pasta do vs code, caso n esteja tem q usar ./local que esta a imagem/, o alt é caso nao de certo de colocar a imagem aparece a mensagem. -->
+     <img src="tiger-jpg.jpg" alt="Teste imagem na maquina">
+
+     <!-- usar a extensao mp3 ou avi. -->
     <p>Um áudio aqui. </p>
+    <audio src="New Divide [Official Music Video] - Linkin Park.mp3" controls></audio>
 
+    <!-- colocando 1 video pega o link pela opcao de compartilhar e copiando o link. O uso de controls é para o usuario tem a opcao de colocar o video/musica ou nao -->
     <p>E um vídeo aqui</p>
+    <video src="https://youtu.be/hT_nvWreIhg" controls></video>
+
+    <!-- usando o iframe e imbed, pegando do site do youtube atraves de compartilhar imbed. -->
+    <iframe src="<iframe width="560" height="315" src="https://www.youtube.com/embed/hT_nvWreIhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>" frameborder="0"></iframe>
+    <!-- Da para fazer com o video baixado na maquina tambem. Alguns videos nao funcionam. -->
+    <video src="https://www.youtube.com/embed/OgxcX1MjbKU" controls></video>
+    <iframe src="https://www.youtube.com/embed/OgxcX1MjbKU" frameborder="0"></iframe>
 
 </body>
 </html>
